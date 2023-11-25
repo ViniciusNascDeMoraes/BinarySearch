@@ -57,7 +57,7 @@ namespace BinarySearch
             {
                 highestIndex = middleIndex - 1;
             }
-            else if(middleNumber < targetNumber)
+            else if (middleNumber < targetNumber)
             {
                 lowestIndex = middleIndex + 1;
             }
