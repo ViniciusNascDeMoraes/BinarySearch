@@ -27,7 +27,7 @@ namespace BinarySearch
             var targetNumber = 10000;
 
             timer.Start();
-            Console.WriteLine(BinarySearch([.. textConvertedIntoArray], lowestIndex, highestIndex, targetNumber));
+            Console.WriteLine(BinarySearch(textConvertedIntoArray, lowestIndex, highestIndex, targetNumber));
             timer.Stop();
 
             Console.WriteLine($"Time elapsed: {timer.ElapsedMilliseconds} milliseconds");
